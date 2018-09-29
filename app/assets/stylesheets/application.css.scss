@@ -23,9 +23,9 @@ h1, h2, h3 {
 
 .navbar, .home-callout {
     //Gradient provided by ighosh at uiGradients.com
-    background: #C6FFDD;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {
@@ -38,4 +38,26 @@ h1, h2, h3 {
     padding-top: 50px;
     padding-bottom: 100px;
     
+}
+
+
+
+.navbar-default .navbar-brand {
+    color:white;
+}
+
+
+.navbar-default .navbar-nav li a {
+    color:white;
+    
+}
+
+.navbar-default .navbar-brand:hover {
+    color:white;
+    opacity:0.75;
+}
+
+.navbar-default .navbar-nav >li >a:hover {
+    color:white;
+        opacity:0.75;
 }
