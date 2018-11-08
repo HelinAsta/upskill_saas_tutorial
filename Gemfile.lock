@@ -194,10 +194,6 @@ GEM
 PLATFORMS
   java
   ruby
-  unknown
-  x64-mingw32
-  x86-mingw32
-  x86-mswin32
 
 DEPENDENCIES
   bootstrap-sass (= 3.3.7)
