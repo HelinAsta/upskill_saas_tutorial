@@ -44,6 +44,9 @@ end
 # Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
 
+#Use Devise for user authentication
+gem 'devise', '4.5.0'
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
